@@ -1,5 +1,9 @@
+import Layout from "../components/layout";
+
 export default () => {
     return(
-        <p>About Us Page</p>
+        <Layout>
+            <p>About Us Page</p>
+        </Layout>
     )
 }

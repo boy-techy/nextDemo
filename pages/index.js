@@ -1,11 +1,10 @@
-import Header from "../components/header";
+import Layout from "../components/layout";
 
 const Index = () => {
     return(
-        <div>
-            <Header />
-            <p> HomePage </p>
-        </div>
+        <Layout>
+            <p> Hello From Next Js App</p>
+        </Layout>
     )
 };
 
